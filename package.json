@@ -1,0 +1,25 @@
+{
+  "name": "iiw-demo-debug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@aries-framework/anoncreds": "0.4.0-alpha.110",
+    "@aries-framework/core": "0.4.0-alpha.110",
+    "@aries-framework/indy-sdk": "0.4.0-alpha.110",
+    "@aries-framework/node": "0.4.0-alpha.110",
+    "indy-sdk": "^1.16.0-dev-1655",
+    "ngrok": "^4.3.3",
+    "qrcode-terminal": "^0.12.0",
+    "reflect-metadata": "0.1.13"
+  }
+}
