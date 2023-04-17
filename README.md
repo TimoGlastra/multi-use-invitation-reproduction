@@ -2,8 +2,6 @@
 
 ## Running
 
-> Note: if you're on an ARM mac, run `docker build -t multi-use-invitation-demo -f Dockerfile.arm .` as the build step.
-
 1. Git clone this repo
 2. Create a class access token (needed to pull the `ghcr.io` image that contains libindy builds for ARM + x86)
    1. https://github.com/settings/tokens
